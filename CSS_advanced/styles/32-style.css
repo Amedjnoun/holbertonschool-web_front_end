@@ -19,5 +19,10 @@
 }
 
 .button:hover {
-  transition: color var(--transition-duration), background-color var(--transition-duration);
+  transition: var(--transition-duration);
+  transition-property: color, background-color;
+}
+
+.card-work .card-inner {
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }

@@ -3,6 +3,7 @@
   --nav-item-link-hover: var(--color-white);
 }
 
+/* Before pseudo-elements for nav-link inside nav */
 .nav .nav-link::before {
   content: "";
   position: absolute;
@@ -14,6 +15,7 @@
   height: 20%;
 }
 
+/* Hover state for nav-link inside nav */
 .nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;

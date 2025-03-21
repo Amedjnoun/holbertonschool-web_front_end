@@ -1,12 +1,16 @@
 /* Task: Fix issues for dark theme */
+
+/* Style footer-address */
 .footer-address {
   color: var(--text-color);
 }
 
+/* Style social-link */
 .social-link {
   display: block;
 }
 
+/* Style svg children of social-link */
 .social-link svg {
   fill: var(--text-color);
 }

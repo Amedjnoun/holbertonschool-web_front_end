@@ -7,7 +7,7 @@
   margin: var(--section-tagline-margin);
 }
 
-.row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -31,6 +31,6 @@
   color: var(--text-color);
 }
 
-.footer ul {
+footer ul {
   text-align: right;
 }

@@ -3,12 +3,19 @@
   margin: 0;
 }
 
+/* Style card-title inside card-services */
+.card-services .card-title {
+  margin: 0;
+}
+
+/* Style anchor inside card-services */
 .card-services a {
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
+/* Hover state for anchor inside card-services */
 .card-services a:hover {
   color: var(--color-white);
   background-color: var(--color-primary);

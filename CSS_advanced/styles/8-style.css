@@ -5,6 +5,7 @@
   --line-height-big: 1.8;
 }
 
+/* Apply line-height-base to body */
 body {
   line-height: var(--line-height-base);
 }
