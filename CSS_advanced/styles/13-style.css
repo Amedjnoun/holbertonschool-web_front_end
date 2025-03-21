@@ -1,6 +1,7 @@
 /* Task: Pseudo Classes */
-a[href] {
+a:link {
   color: var(--text-color);
+  text-decoration: none;
 }
 
 a:visited {
