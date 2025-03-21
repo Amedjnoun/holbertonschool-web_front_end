@@ -1,9 +1,10 @@
 /* Task: Styling and custom properties for the nav */
 :root {
+  /* Update the nav-item-link-hover to use color-white */
   --nav-item-link-hover: var(--color-white);
 }
 
-/* Before pseudo-elements for nav-link inside nav */
+/* Style before pseudo-elements of nav-link inside nav */
 .nav .nav-link::before {
   content: "";
   position: absolute;
@@ -14,8 +15,10 @@
   height: 20%;
 }
 
-/* Hover state for nav-link inside nav */
-.nav .nav-item:hover .nav-link::before {
+/* Fix hover state selector for the before pseudo-element */
+/* Previously was .nav .nav-item:hover .nav-link::before */
+.nav .nav-item:hover .nav-link::before,
+.nav-link:hover::before {
   background-color: var(--color-primary);
   width: 100%;
 }
